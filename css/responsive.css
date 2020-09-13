@@ -1,0 +1,129 @@
+/* if the viewport is equal to 340px or less than that */ 
+
+@media only screen and (max-width: 792px){
+    .main-info-section .text{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .main-info-section .text h1{
+        display: block;
+        font-size: 3rem;
+
+    }
+    header nav ul li {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        display: none;
+        
+    
+    }
+    .profile-image{
+        width: 400px;
+        height: 400px;
+       margin-left: 20rem;
+    }
+    header nav ul #menu{
+        display: block;
+        float: right;
+    
+    }
+    .text a{
+        margin-right: 40rem;
+        display: inline-block;
+        
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        padding: 0 10px 0 10px;
+
+       
+        
+    }
+    header nav ul #menu{
+        display: block;
+       float: right;
+    
+    }
+    
+    .main-info-section .text{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .main-info-section .text h1{
+        display: block;
+        font-size: 2rem;
+
+    }
+    .main-info-section .text p{
+        display: flex;
+        flex: wrap;
+        margin-top: 5rem;
+        margin-right: 30rem;
+    }
+    .profile-image{
+        margin-right: 80px;
+        
+    }
+    .about{
+        height: 100vh;
+        margin-top: 100px;
+    
+       
+    }
+
+    .about-me-info{
+      margin-top: 40px;
+      width: 30rem;
+      margin-left: 5rem;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+    
+    
+
+    }
+    .about-me-info p{
+        display: flex;
+       flex-wrap: wrap;
+        
+    
+     
+    }
+    .about img{
+            margin-left: 20rem;
+          
+            
+    }
+
+    .skills h1{
+        margin-top: 20rem;
+
+    }    
+    .work{
+        margin-top: 10rem;
+    
+    }
+    .work-category{
+        justify-content: center;
+        position: relative;
+        display: flex;
+
+    }
+    form{
+        width: 200px;
+        margin-left: 5rem;
+
+
+    }
+
+}
